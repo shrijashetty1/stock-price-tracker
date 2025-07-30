@@ -1,34 +1,32 @@
-# streamlit-yfinance
-This is a simple [Streamlit](https://streamlit.io/) web app that fetches and displays **real-time and historical stock data** using the Yahoo Finance API.
+# 📊 Streamlit Stock Price Tracker
 
-### ✨ Features
-- Fetch detailed stock ticker information (sector, industry, market cap, enterprise value, employees)
-- Plot interactive historical price charts (1D, 5D, 1M, 6M, YTD, 1Y, 5Y)
-- Display key price metrics (current price, day high/low, 52-week high/low)
-- Show key business metrics (EPS, P/E, PEG, dividend rate & yield, recommendation)
-- Responsive design with data tables and interactive charts
-- No API key required—uses Yahoo Finance via `yfinance`
+A lightweight stock tracking app built using **Python** and **Streamlit**.  
+This tool allows users to monitor real-time stock data and visualize recent trends via line charts.
 
-![streamlit-yfinance](./streamlit-yfinance.png)
+---
 
+## 🚀 Features
 
-### ⏩ Quick Start
-1. Clone this repo.
+- 🔎 Enter any stock symbol (e.g., AAPL, TSLA, GOOGL)
+- 💵 See current stock price and company info using yfinance
+- 📈 7-day historical price chart
+- ⚙️ 100% frontend (no backend needed)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.x
+- Streamlit
+- yfinance
+- pandas
+
+---
+
+## 🧪 How to Run Locally
+
+### 1. Clone this repo
+
 ```bash
-  git clone https://github.com/alphasecio/streamlit-yfinance.git
-  cd streamlit-yfinance
-```
-2. Install dependencies.
-```bash
-  pip install -r requirements.txt
-```
-3. Run the app.
-```bash
-  streamlit run streamlit_app.py
-```
-
-
-### 🚀 Deploying to Railway
-For a step-by-step guide to deploying on Streamlit, see [this](https://alphasec.io/stock-financial-analysis-with-streamlit-and-yfinance-api/) post. To deploy on [Railway](https://railway.app/?referralCode=alphasec), click the button below.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3D37W6?referralCode=alphasec)
+git clone https://github.com/shrijashetty1/streamlit-stock-tracker.git
+cd streamlit-stock-tracker
